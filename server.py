@@ -19,7 +19,6 @@ from datetime import date
 from typing import Any
 
 import requests
-
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import TextContent, Tool
@@ -116,7 +115,7 @@ async def list_tools() -> list[Tool]:
 async def call_tool(name: str, arguments: dict[str, Any]) -> list[TextContent]:
     if name == "lookup_by_nip":
         nip = _validate_nip(arguments["nip"])
-        on_date = arguments.get("date") or date.today().isoformat()
+        on_date = arguments.get("date") or date.today().isoformat()  # noqa: DTZ011
         result = _wl_lookup(nip, on_date)
         return [TextContent(type="text", text=json.dumps(result, ensure_ascii=False, indent=2))]
 

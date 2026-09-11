@@ -8,7 +8,7 @@ Tools: lookup_by_nip, lookup_by_krs. Data flows only between your machine
 and the Polish government's public endpoints — no third party involved.
 
 Author: Bartosz Kuć <firma@bartosza.pl>
-Repo:   https://github.com/bartosz-kuc/nip-krs-mcp
+Repo:   https://github.com/bartosz-kuc/honest-nip-krs-mcp
 License: MIT
 """
 

@@ -34,7 +34,7 @@ Planned for v0.2:
 ## Setup
 
 ```bash
-git clone https://github.com/bartosz-kuc/nip-krs-mcp.git
+git clone https://github.com/bartosz-kuc/honest-nip-krs-mcp.git
 cd nip-krs-mcp
 python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt

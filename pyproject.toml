@@ -28,9 +28,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bartosz-kuc/nip-krs-mcp"
-Repository = "https://github.com/bartosz-kuc/nip-krs-mcp"
-Issues = "https://github.com/bartosz-kuc/nip-krs-mcp/issues"
+Homepage = "https://github.com/bartosz-kuc/honest-nip-krs-mcp"
+Repository = "https://github.com/bartosz-kuc/honest-nip-krs-mcp"
+Issues = "https://github.com/bartosz-kuc/honest-nip-krs-mcp/issues"
 
 [project.scripts]
 nip-krs-mcp = "nip_krs_mcp:sync_main"

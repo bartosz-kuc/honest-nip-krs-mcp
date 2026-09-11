@@ -3,7 +3,7 @@
   "name": "nip-krs-mcp",
   "description": "Local MCP server for Polish company registries — Biała Lista VAT, KRS, REGON lookups by NIP.",
   "repository": {
-    "url": "https://github.com/bartosz-kuc/nip-krs-mcp",
+    "url": "https://github.com/bartosz-kuc/honest-nip-krs-mcp",
     "source": "github"
   },
   "version": "0.1.0",

@@ -1,4 +1,4 @@
-# nip-krs-mcp
+# honest-nip-krs-mcp
 
 MCP server for Polish company registries. Look up any Polish company by **NIP** (tax id) or **KRS** (court registry number) from Claude Code, Claude Desktop, or any MCP-compatible AI client.
 
@@ -35,10 +35,12 @@ Planned for v0.2:
 
 ```bash
 git clone https://github.com/bartosz-kuc/honest-nip-krs-mcp.git
-cd nip-krs-mcp
+cd honest-nip-krs-mcp
 python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt
 ```
+
+On Windows, create the venv with `python -m venv venv` and use `venv\Scripts\pip` and `venv\Scripts\python` instead of `venv/bin/pip` and `venv/bin/python` (here and in the configs below).
 
 Register with Claude Code:
 
@@ -114,4 +116,3 @@ MIT — see [LICENSE](LICENSE).
 
 - [honest-gmail-mcp](https://github.com/bartosz-kuc/honest-gmail-mcp) — local Gmail MCP
 - [honest-calendar-mcp](https://github.com/bartosz-kuc/honest-calendar-mcp) — local Google Calendar MCP
-- [ksef-mcp](https://github.com/bartosz-kuc/ksef-mcp) — Polish KSeF (e-invoicing) MCP

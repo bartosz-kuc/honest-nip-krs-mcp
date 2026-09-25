@@ -1,7 +1,7 @@
 {
   "$schema": "https://modelcontextprotocol.io/schemas/server.json",
   "name": "nip-krs-mcp",
-  "description": "Local MCP server for Polish company registries — Biała Lista VAT, KRS, REGON lookups by NIP.",
+  "description": "Local MCP server for Polish company registries — Biała Lista (VAT) by NIP and KRS by KRS number.",
   "repository": {
     "url": "https://github.com/bartosz-kuc/honest-nip-krs-mcp",
     "source": "github"

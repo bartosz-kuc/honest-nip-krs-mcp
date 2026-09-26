@@ -6,13 +6,5 @@
     "url": "https://github.com/bartosz-kuc/honest-nip-krs-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
-  "packages": [
-    {
-      "registry_name": "pypi",
-      "name": "nip-krs-mcp",
-      "version": "0.1.0",
-      "runtime_hint": "uvx"
-    }
-  ]
+  "version": "0.1.0"
 }

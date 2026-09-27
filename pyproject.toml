@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "nip-krs-mcp"
-version = "0.1.0"
-description = "Local MCP server for Polish company registries — Biała Lista (VAT) by NIP and KRS by KRS number."
+version = "0.2.0"
+description = "Local MCP server for Polish company registries — Biała Lista (VAT) by NIP, bank-account check, and KRS by KRS number. Sole-trader data minimised (GDPR)."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
